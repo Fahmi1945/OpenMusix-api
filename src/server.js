@@ -570,4 +570,3 @@ app.get('/playlists/:id/activities', authenticateToken, async (req, res) => {
         });
     } catch (error) { handleError(res, error); }
 });
-
